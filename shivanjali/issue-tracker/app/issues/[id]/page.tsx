@@ -1,9 +1,8 @@
 "use client";
 
+import { useParams, useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
 
-// Define the Issue type
 type Issue = {
   id: string;
   title: string;
@@ -12,19 +11,16 @@ type Issue = {
   priority: "low" | "medium" | "high";
 };
 
-// Define props for the page component
-type IssueDetailPageProps = {
-  params: { id: string };
-};
-
-export default function IssueDetailPage({ params }: IssueDetailPageProps) {
-  const { id } = params;
+export default function IssueDetailPage() {
   const router = useRouter();
+  const { id } = useParams(); // ✅ Use useParams in client components
 
   const [issue, setIssue] = useState<Issue | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    if (!id) return;
+
     fetch(`/api/issues/${id}`)
       .then((res) => res.json())
       .then((data: Issue) => {
@@ -43,7 +39,6 @@ export default function IssueDetailPage({ params }: IssueDetailPageProps) {
   const toggleStatus = async () => {
     const newStatus: Issue["status"] = issue.status === "open" ? "closed" : "open";
 
-    // Optimistic update
     setIssue({ ...issue, status: newStatus });
 
     await fetch(`/api/issues/${id}`, {
@@ -52,27 +47,20 @@ export default function IssueDetailPage({ params }: IssueDetailPageProps) {
       body: JSON.stringify({ status: newStatus }),
     });
 
-    router.refresh(); // Refresh the server-side data
+    router.refresh();
   };
 
   return (
     <div>
       <h2 className="text-3xl font-bold mb-2">{issue.title}</h2>
       <p className="mb-2">{issue.description}</p>
-      <p className="mb-2">
-        Priority: <strong>{issue.priority}</strong>
-      </p>
+      <p className="mb-2">Priority: <strong>{issue.priority}</strong></p>
       <p className="mb-4">
         Status:{" "}
-        <span
-          className={`font-semibold ${
-            issue.status === "open" ? "text-green-600" : "text-red-600"
-          }`}
-        >
+        <span className={`font-semibold ${issue.status === "open" ? "text-green-600" : "text-red-600"}`}>
           {issue.status}
         </span>
       </p>
-
       <button
         onClick={toggleStatus}
         className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
