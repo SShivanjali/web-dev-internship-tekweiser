@@ -1,0 +1,109 @@
+[
+  {"roast": "light", "taste": "sweet", "strength": "mild", "origin": "africa", "name": "Ethiopian Yirgacheffe", "pairing": "Lemon cake", "brew": "Pour-over"},
+  {"roast": "light", "taste": "sweet", "strength": "mild", "origin": "south-america", "name": "Colombian Supremo Light", "pairing": "Vanilla muffin", "brew": "Drip"},
+  {"roast": "light", "taste": "sweet", "strength": "mild", "origin": "asia", "name": "Indian Light Arabica", "pairing": "Cardamom cookies", "brew": "Pour-over"},
+
+  {"roast": "light", "taste": "sweet", "strength": "medium", "origin": "africa", "name": "Kenyan AA Sweet", "pairing": "Honey cake", "brew": "French press"},
+  {"roast": "light", "taste": "sweet", "strength": "medium", "origin": "south-america", "name": "Brazilian Cerrado Light Sweet", "pairing": "Chocolate croissant", "brew": "French press"},
+  {"roast": "light", "taste": "sweet", "strength": "medium", "origin": "asia", "name": "Vietnamese Sweet Light", "pairing": "Coconut macaroons", "brew": "Aeropress"},
+
+  {"roast": "light", "taste": "sweet", "strength": "strong", "origin": "africa", "name": "Ethiopian Strong Light", "pairing": "Chocolate truffle", "brew": "Espresso"},
+  {"roast": "light", "taste": "sweet", "strength": "strong", "origin": "south-america", "name": "Colombian Supremo", "pairing": "Chocolate croissant", "brew": "French press"},
+  {"roast": "light", "taste": "sweet", "strength": "strong", "origin": "asia", "name": "Indian Strong Arabica", "pairing": "Spiced cake", "brew": "Espresso"},
+
+  {"roast": "light", "taste": "bitter", "strength": "mild", "origin": "africa", "name": "Kenyan AA", "pairing": "Dark chocolate", "brew": "Aeropress"},
+  {"roast": "light", "taste": "bitter", "strength": "mild", "origin": "south-america", "name": "Brazilian Light Bitter", "pairing": "Coffee cake", "brew": "Pour-over"},
+  {"roast": "light", "taste": "bitter", "strength": "mild", "origin": "asia", "name": "Indonesian Light Bitter", "pairing": "Ginger cookies", "brew": "Drip"},
+
+  {"roast": "light", "taste": "bitter", "strength": "medium", "origin": "africa", "name": "Ethiopian Light Bitter Medium", "pairing": "Walnut biscotti", "brew": "Espresso"},
+  {"roast": "light", "taste": "bitter", "strength": "medium", "origin": "south-america", "name": "Brazilian Cerrado Bitter", "pairing": "Coffee cake", "brew": "Espresso"},
+  {"roast": "light", "taste": "bitter", "strength": "medium", "origin": "asia", "name": "Vietnamese Bitter Light", "pairing": "Spiced biscuits", "brew": "French press"},
+
+  {"roast": "light", "taste": "bitter", "strength": "strong", "origin": "africa", "name": "Kenyan Strong Bitter", "pairing": "Dark chocolate", "brew": "Espresso"},
+  {"roast": "light", "taste": "bitter", "strength": "strong", "origin": "south-america", "name": "Brazilian Cerrado", "pairing": "Coffee cake", "brew": "Espresso"},
+  {"roast": "light", "taste": "bitter", "strength": "strong", "origin": "asia", "name": "Indonesian Strong Bitter", "pairing": "Nutty biscotti", "brew": "Moka pot"},
+
+  {"roast": "light", "taste": "balanced", "strength": "mild", "origin": "africa", "name": "Ethiopian Balanced Light", "pairing": "Almond cookies", "brew": "Pour-over"},
+  {"roast": "light", "taste": "balanced", "strength": "mild", "origin": "south-america", "name": "Colombian Balanced Light", "pairing": "Sugar cookies", "brew": "Drip"},
+  {"roast": "light", "taste": "balanced", "strength": "mild", "origin": "asia", "name": "Indian Balanced Light", "pairing": "Chai biscuits", "brew": "Aeropress"},
+
+  {"roast": "light", "taste": "balanced", "strength": "medium", "origin": "africa", "name": "Kenyan Balanced Medium", "pairing": "Ginger cake", "brew": "French press"},
+  {"roast": "light", "taste": "balanced", "strength": "medium", "origin": "south-america", "name": "Brazilian Balanced Medium", "pairing": "Caramel muffin", "brew": "Espresso"},
+  {"roast": "light", "taste": "balanced", "strength": "medium", "origin": "asia", "name": "Vietnamese Balanced Medium", "pairing": "Coconut tart", "brew": "French press"},
+
+  {"roast": "light", "taste": "balanced", "strength": "strong", "origin": "africa", "name": "Ethiopian Balanced Strong", "pairing": "Chocolate truffle", "brew": "Espresso"},
+  {"roast": "light", "taste": "balanced", "strength": "strong", "origin": "south-america", "name": "Colombian Balanced Strong", "pairing": "Brownies", "brew": "Espresso"},
+  {"roast": "light", "taste": "balanced", "strength": "strong", "origin": "asia", "name": "Indian Balanced Strong", "pairing": "Nutty bars", "brew": "Moka pot"},
+
+  {"roast": "medium", "taste": "sweet", "strength": "mild", "origin": "africa", "name": "Ethiopian Harrar", "pairing": "Baklava", "brew": "French press"},
+  {"roast": "medium", "taste": "sweet", "strength": "mild", "origin": "south-america", "name": "Colombian Excelso", "pairing": "Sugar cookies", "brew": "Drip"},
+  {"roast": "medium", "taste": "sweet", "strength": "mild", "origin": "asia", "name": "Indian Medium Sweet", "pairing": "Cardamom cake", "brew": "Aeropress"},
+
+  {"roast": "medium", "taste": "sweet", "strength": "medium", "origin": "africa", "name": "Kenyan Medium Sweet", "pairing": "Honey cake", "brew": "French press"},
+  {"roast": "medium", "taste": "sweet", "strength": "medium", "origin": "south-america", "name": "Brazilian Medium Sweet", "pairing": "Chocolate croissant", "brew": "French press"},
+  {"roast": "medium", "taste": "sweet", "strength": "medium", "origin": "asia", "name": "Vietnamese Medium Sweet", "pairing": "Coconut macaroons", "brew": "Aeropress"},
+
+  {"roast": "medium", "taste": "sweet", "strength": "strong", "origin": "africa", "name": "Ethiopian Medium Strong Sweet", "pairing": "Chocolate truffle", "brew": "Espresso"},
+  {"roast": "medium", "taste": "sweet", "strength": "strong", "origin": "south-america", "name": "Colombian Medium Strong Sweet", "pairing": "Chocolate croissant", "brew": "French press"},
+  {"roast": "medium", "taste": "sweet", "strength": "strong", "origin": "asia", "name": "Indian Medium Strong Sweet", "pairing": "Spiced cake", "brew": "Espresso"},
+
+  {"roast": "medium", "taste": "bitter", "strength": "mild", "origin": "africa", "name": "Kenyan PB", "pairing": "Ginger biscuits", "brew": "Espresso"},
+  {"roast": "medium", "taste": "bitter", "strength": "mild", "origin": "south-america", "name": "Brazilian Medium Bitter", "pairing": "Coffee cake", "brew": "Drip"},
+  {"roast": "medium", "taste": "bitter", "strength": "mild", "origin": "asia", "name": "Indonesian Medium Bitter", "pairing": "Spiced cookies", "brew": "Moka pot"},
+
+  {"roast": "medium", "taste": "bitter", "strength": "medium", "origin": "africa", "name": "Ethiopian Medium Bitter", "pairing": "Walnut biscotti", "brew": "Espresso"},
+  {"roast": "medium", "taste": "bitter", "strength": "medium", "origin": "south-america", "name": "Brazilian Santos", "pairing": "Caramel muffin", "brew": "Moka pot"},
+  {"roast": "medium", "taste": "bitter", "strength": "medium", "origin": "asia", "name": "Vietnamese Medium Bitter", "pairing": "Spiced cookies", "brew": "Drip"},
+
+  {"roast": "medium", "taste": "bitter", "strength": "strong", "origin": "africa", "name": "Kenyan Medium Strong Bitter", "pairing": "Dark chocolate", "brew": "Espresso"},
+  {"roast": "medium", "taste": "bitter", "strength": "strong", "origin": "south-america", "name": "Brazilian Santos Strong", "pairing": "Caramel muffin", "brew": "Moka pot"},
+  {"roast": "medium", "taste": "bitter", "strength": "strong", "origin": "asia", "name": "Indonesian Strong Bitter", "pairing": "Nutty bars", "brew": "Espresso"},
+
+  {"roast": "medium", "taste": "balanced", "strength": "mild", "origin": "africa", "name": "Ethiopian Balanced Medium", "pairing": "Almond cookies", "brew": "Pour-over"},
+  {"roast": "medium", "taste": "balanced", "strength": "mild", "origin": "south-america", "name": "Colombian Balanced Medium", "pairing": "Sugar cookies", "brew": "Drip"},
+  {"roast": "medium", "taste": "balanced", "strength": "mild", "origin": "asia", "name": "Indian Balanced Medium", "pairing": "Chai biscuits", "brew": "Aeropress"},
+
+  {"roast": "medium", "taste": "balanced", "strength": "medium", "origin": "africa", "name": "Kenyan Balanced Medium", "pairing": "Ginger cake", "brew": "French press"},
+  {"roast": "medium", "taste": "balanced", "strength": "medium", "origin": "south-america", "name": "Brazilian Balanced Medium", "pairing": "Caramel muffin", "brew": "Espresso"},
+  {"roast": "medium", "taste": "balanced", "strength": "medium", "origin": "asia", "name": "Vietnamese Balanced Medium", "pairing": "Coconut tart", "brew": "French press"},
+
+  {"roast": "medium", "taste": "balanced", "strength": "strong", "origin": "africa", "name": "Ethiopian Balanced Strong", "pairing": "Chocolate truffle", "brew": "Espresso"},
+  {"roast": "medium", "taste": "balanced", "strength": "strong", "origin": "south-america", "name": "Colombian Balanced Strong", "pairing": "Brownies", "brew": "Espresso"},
+  {"roast": "medium", "taste": "balanced", "strength": "strong", "origin": "asia", "name": "Indian Balanced Strong", "pairing": "Nutty bars", "brew": "Moka pot"},
+
+  {"roast": "dark", "taste": "sweet", "strength": "mild", "origin": "africa", "name": "Ethiopian Dark Sweet", "pairing": "Molasses cookie", "brew": "French press"},
+  {"roast": "dark", "taste": "sweet", "strength": "mild", "origin": "south-america", "name": "Brazilian Dark Sweet", "pairing": "Brown sugar cake", "brew": "Drip"},
+  {"roast": "dark", "taste": "sweet", "strength": "mild", "origin": "asia", "name": "Indian Dark Sweet", "pairing": "Spiced cake", "brew": "Aeropress"},
+
+  {"roast": "dark", "taste": "sweet", "strength": "medium", "origin": "africa", "name": "Kenyan Dark Sweet", "pairing": "Caramel fudge", "brew": "Espresso"},
+  {"roast": "dark", "taste": "sweet", "strength": "medium", "origin": "south-america", "name": "Brazilian Dark Medium Sweet", "pairing": "Chocolate croissant", "brew": "French press"},
+  {"roast": "dark", "taste": "sweet", "strength": "medium", "origin": "asia", "name": "Vietnamese Dark Sweet", "pairing": "Coconut macaroons", "brew": "French press"},
+
+  {"roast": "dark", "taste": "sweet", "strength": "strong", "origin": "africa", "name": "Ethiopian Dark Strong Sweet", "pairing": "Chocolate truffle", "brew": "Espresso"},
+  {"roast": "dark", "taste": "sweet", "strength": "strong", "origin": "south-america", "name": "Colombian Dark Strong Sweet", "pairing": "Brownies", "brew": "Espresso"},
+  {"roast": "dark", "taste": "sweet", "strength": "strong", "origin": "asia", "name": "Indian Dark Strong Sweet", "pairing": "Nutty bars", "brew": "Moka pot"},
+
+  {"roast": "dark", "taste": "bitter", "strength": "mild", "origin": "africa", "name": "Kenyan Dark Bitter", "pairing": "Dark chocolate", "brew": "Espresso"},
+  {"roast": "dark", "taste": "bitter", "strength": "mild", "origin": "south-america", "name": "Brazilian Dark Bitter", "pairing": "Coffee cake", "brew": "Drip"},
+  {"roast": "dark", "taste": "bitter", "strength": "mild", "origin": "asia", "name": "Indonesian Dark Bitter", "pairing": "Ginger cookies", "brew": "Moka pot"},
+
+  {"roast": "dark", "taste": "bitter", "strength": "medium", "origin": "africa", "name": "Ethiopian Dark Bitter Medium", "pairing": "Walnut biscotti", "brew": "Espresso"},
+  {"roast": "dark", "taste": "bitter", "strength": "medium", "origin": "south-america", "name": "Brazilian Dark Bitter Medium", "pairing": "Coffee cake", "brew": "Espresso"},
+  {"roast": "dark", "taste": "bitter", "strength": "medium", "origin": "asia", "name": "Vietnamese Dark Bitter Medium", "pairing": "Spiced biscuits", "brew": "French press"},
+
+  {"roast": "dark", "taste": "bitter", "strength": "strong", "origin": "africa", "name": "Kenyan Dark Strong Bitter", "pairing": "Dark chocolate", "brew": "Espresso"},
+  {"roast": "dark", "taste": "bitter", "strength": "strong", "origin": "south-america", "name": "Brazilian Dark Strong Bitter", "pairing": "Coffee cake", "brew": "Espresso"},
+  {"roast": "dark", "taste": "bitter", "strength": "strong", "origin": "asia", "name": "Indonesian Dark Strong Bitter", "pairing": "Nutty biscotti", "brew": "Moka pot"},
+
+  {"roast": "dark", "taste": "balanced", "strength": "mild", "origin": "africa", "name": "Ethiopian Dark Balanced", "pairing": "Almond cookies", "brew": "Pour-over"},
+  {"roast": "dark", "taste": "balanced", "strength": "mild", "origin": "south-america", "name": "Colombian Dark Balanced", "pairing": "Sugar cookies", "brew": "Drip"},
+  {"roast": "dark", "taste": "balanced", "strength": "mild", "origin": "asia", "name": "Indian Dark Balanced", "pairing": "Chai biscuits", "brew": "Aeropress"},
+
+  {"roast": "dark", "taste": "balanced", "strength": "medium", "origin": "africa", "name": "Kenyan Dark Balanced Medium", "pairing": "Ginger cake", "brew": "French press"},
+  {"roast": "dark", "taste": "balanced", "strength": "medium", "origin": "south-america", "name": "Brazilian Dark Balanced Medium", "pairing": "Caramel muffin", "brew": "Espresso"},
+  {"roast": "dark", "taste": "balanced", "strength": "medium", "origin": "asia", "name": "Vietnamese Dark Balanced Medium", "pairing": "Coconut tart", "brew": "French press"},
+
+  {"roast": "dark", "taste": "balanced", "strength": "strong", "origin": "africa", "name": "Ethiopian Dark Balanced Strong", "pairing": "Chocolate truffle", "brew": "Espresso"},
+  {"roast": "dark", "taste": "balanced", "strength": "strong", "origin": "south-america", "name": "Colombian Dark Balanced Strong", "pairing": "Brownies", "brew": "Espresso"},
+  {"roast": "dark", "taste": "balanced", "strength": "strong", "origin": "asia", "name": "Indian Dark Balanced Strong", "pairing": "Nutty bars", "brew": "Moka pot"}
+]
