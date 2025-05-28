@@ -1,0 +1,36 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Review Hub</title>
+  <script src="app.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-4">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold mb-4">📚 Book Review Hub</h1>
+
+    <!-- Toggle Button -->
+    <button id="toggleBookForm" class="mb-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+      ➕ Add New Book
+    </button>
+
+    <!-- Book Form (Hidden by default) -->
+    <form id="bookForm" class="bg-white p-4 rounded shadow mb-6 hidden">
+      <div class="mb-2">
+        <input id="title" type="text" placeholder="Book Title" class="w-full border p-2 rounded" required />
+      </div>
+      <div class="mb-2">
+        <input id="author" type="text" placeholder="Author" class="w-full border p-2 rounded" required />
+      </div>
+      <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Submit</button>
+    </form>
+
+    <!-- Book List -->
+    <div id="bookList" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+  </div>
+</body>
+
+</html>

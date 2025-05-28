@@ -1,0 +1,33 @@
+<!-- frontend/book.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Reviews</title>
+  <script src="app.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <div class="container mx-auto p-6">
+    <a href="index.html" class="text-blue-600 hover:underline mb-4 block">← Back to Home</a>
+    <h1 id="bookTitle" class="text-2xl font-bold mb-4">Book Title</h1>
+
+    <!-- Toggle Add Review Button -->
+    <button id="toggleReviewForm" class="mb-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+      ➕ Add Review
+    </button>
+
+    <!-- Review Form (Hidden by default) -->
+    <form id="reviewForm" class="mb-6 bg-white shadow-md p-4 rounded-lg hidden">
+      <h2 class="text-xl font-semibold mb-2">Add a Review</h2>
+      <input type="text" id="reviewer_name" placeholder="Your Name" class="w-full p-2 border rounded mb-2" required />
+      <textarea id="comment" placeholder="Write your review..." class="w-full p-2 border rounded mb-2" required></textarea>
+      <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Submit Review</button>
+    </form>
+
+    <!-- Review List -->
+    <div id="reviewList" class="space-y-4"></div>
+  </div>
+</body>
+</html>
