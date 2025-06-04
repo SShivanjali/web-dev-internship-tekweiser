@@ -1,0 +1,18 @@
+{
+  "Coding Contest": 0,
+  "Tech News": 1,
+  "Dev Notifications": 2,
+  "Job Alert": 3,
+  "Hackathon Event": 4,
+  "Government": 5,
+  " Banking": 6,
+  "Query": 7,
+  "Complaint": 8,
+  "Bug Report": 9,
+  "Payment": 10,
+  "Socials": 11,
+  "Technical Support": 12,
+  "Order Status": 13,
+  "Security": 14,
+  "Promotions": 15
+}
